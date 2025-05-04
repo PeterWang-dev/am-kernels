@@ -27,6 +27,10 @@ run: all
 	@cat $(RESULT)
 	@rm $(RESULT)
 
+run-batch: all
+	@cat $(RESULT)
+	@rm $(RESULT)
+
 gdb: all
 
 clean:
